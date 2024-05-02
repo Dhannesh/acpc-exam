@@ -7,7 +7,6 @@ function App() {
     <>
       <div className="bg-sky-600 m-0 p-2 flex flex-row justify-between items-center">
         <img src={logo} />
-        <img className="rounded-md ml-auto" src={acmLogo} />
       </div>
       <Home />
     </>
