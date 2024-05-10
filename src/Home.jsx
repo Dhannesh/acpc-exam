@@ -1,12 +1,12 @@
 import { testLink } from "./assets/data";
-import mca from "./assets/mca-back.jpg";
+import bg from "./assets/assessment_back.png";
 const Home = () => {
   return (
     <section className="bg-gray-200 text-center p-1 w-full h-auto">
-      <h2 className="text-4xl m-1">Master of Computer Application</h2>
+      <h2 className="text-4xl m-1">Department of Computer Science</h2>
 
       <h3 className="font-bold text-red-600 mb-8 text-3xl">
-        Pre-Placement Preparatory Assessment-1
+        Problem Solving Class Test
       </h3>
       <a
         href={testLink}
@@ -15,8 +15,8 @@ const Home = () => {
       </a>
       <center>
         <img
-          src={mca}
-          className="rounded-md shadow-sm mt-2"
+          src={bg}
+          className="rounded-md shadow-sm mt-5"
           style={{ width: 500 }}
         />
       </center>
